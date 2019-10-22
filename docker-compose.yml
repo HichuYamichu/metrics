@@ -23,7 +23,7 @@ services:
       - ./grafana/.env
     volumes:
       - grafana_vol:/var/lib/grafana
-    
+
   loki:
     <<: *defaults
     image: grafana/loki:latest
@@ -38,3 +38,4 @@ networks:
 volumes:
   grafana_vol:
   prometheus_vol:
+  
