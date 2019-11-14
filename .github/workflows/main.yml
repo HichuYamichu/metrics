@@ -19,3 +19,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: ./deploy.sh metrics
+        command_timeout: 15m
