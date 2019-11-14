@@ -15,7 +15,7 @@ services:
     image: prom/prometheus:latest
     volumes:
       - prometheus_vol:/prometheus
-      - /prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
 
   grafana:
     <<: *defaults
