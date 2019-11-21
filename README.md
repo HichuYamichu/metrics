@@ -1,1 +1,1 @@
-### Prometheus. Grafana and Loki instances for hichuyamichu.io
+### Prometheus. Grafana and Loki instances for hichuyamichu.me
